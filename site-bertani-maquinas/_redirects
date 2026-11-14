@@ -1,0 +1,3 @@
+/posts       /noticias-e-dicas   301
+/posts/*     /noticias-e-dicas   301
+/index.html  /                   301

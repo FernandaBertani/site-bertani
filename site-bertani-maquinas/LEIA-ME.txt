@@ -1,0 +1,18 @@
+SITE BERTANI MÁQUINAS DE COSTURA
+================================
+Pasta pronta para publicar no Cloudflare Pages (conectado ao GitHub).
+
+- index.html, sobre.html, produtos.html, comece-a-costurar.html,
+  noticias-e-dicas.html, contato.html: páginas do site
+- dicas/: 24 páginas de dicas
+- assets/: logo e fotos
+- noticias.json: notícias exibidas no site (atualizado sozinho todo dia)
+- scripts/atualizar_noticias.py + .github/workflows/noticias.yml:
+  robô que busca as notícias do dia (roda no GitHub)
+- sitemap.xml e robots.txt: para o Google
+- _redirects: leva os endereços antigos do site da Solutudo para as páginas novas
+
+Configuração no Cloudflare Pages:
+  Framework preset: None
+  Build command: (deixar vazio)
+  Build output directory: /
